@@ -9,7 +9,7 @@ int main() {
     int torre = 1;
     int bispo = 1;
     int rainha = 1;
-    int cavalo = 2;
+    int cavalo = 1;
 
     //Movimento da Torre
 
@@ -45,16 +45,16 @@ int main() {
 
     printf("\nMovimento do Cavalo: \n");
 
-    while (cavalo)
-    {
-        for (cavalo = 2; cavalo <= co; i++)
-        {
-            /* code */
-        }
-        
+   while(cavalo--)
+   {
+    for(int i = 1; i <= 2; i++){
+        printf("Cima \n");
     }
-    
-    
+        printf("Esquerda \n");
+    }
 
-    return 0;
+
+
+
+   return 0;
 }
